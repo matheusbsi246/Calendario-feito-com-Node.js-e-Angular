@@ -1,0 +1,54 @@
+<div class="calendario">
+  <div class="row">
+    <div class="col-xl-8">
+      <full-calendar [options]="calendarOptions"></full-calendar>
+    </div>
+
+    <div class="col-xl-4 my-5 py-4">
+      <form class="form g-3">
+        <div class="form-floating m-3">
+          <input
+            type="date"
+            class="form-control"
+            id="eventoin"
+            name="eventoin"
+            placeholder=" "
+          />
+          <label for="eventoin">Inicio do evento:</label>
+        </div>
+        <div class="form-floating m-3">
+          <input
+            type="date"
+            class="form-control"
+            id="eventoend"
+            name="eventoend"
+            placeholder=" "
+          />
+          <label for="eventoin">Fim do evento:</label>
+        </div>
+        <div class="form-floating m-3">
+          <input
+            type="text"
+            class="form-control"
+            id="nomedoevento"
+            name="nomedoevento"
+            placeholder=" "
+          />
+          <label for="eventoin">Nome do evento:</label>
+        </div>
+        <div class="form-floating m-3">
+          <input
+            type="text"
+            class="form-control"
+            id="nomedoevento"
+            name="convite"
+            placeholder=" "
+          />
+          <label for="eventoin">Convidar Usuario:</label>
+        </div>
+
+        <button type="submit" class="btn btn-light mx-3">Agendar</button>
+      </form>
+    </div>
+  </div>
+</div>

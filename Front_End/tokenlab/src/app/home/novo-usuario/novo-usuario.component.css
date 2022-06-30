@@ -1,0 +1,19 @@
+.login {
+  margin-top: 20%;
+  background-color: #CCCCFF;
+  padding: 1%;
+
+}
+.h3{
+  padding-top: 20%;
+  text-align: center;
+}
+
+@media (max-width: 768px){
+  .login{
+    margin-top: 0;
+  }
+  .h3{
+    padding-top: 0%;
+  }
+}
